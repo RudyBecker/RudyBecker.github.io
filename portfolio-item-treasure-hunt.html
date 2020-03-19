@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rudy Becker's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/RB Logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">What I Can Do</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Treasure Hunt</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> React & Javascript Game</p>
+            <img src="img/Treasure Hunt.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Treasure Hunt was a project created utilizing the React framework and Javascript. The game contains CSS styling elements and 3 React Components.
+            </p>
+        <h3>Features</h3>
+        
+        <p>
+            <ol>
+                <li>Counter that decrements to show remaining moves and stops play after reaching 0 (or hitting a bomb/finding treasure). </li>
+                <li>Random placement of “bombs” throughout gameboard.</li>
+                <li>Random placement of “treasure” throughout gameboard.</li>
+                <li>Game restarts with 1 second built-in delay after 5 tries are used up.</li>
+                <li>Message is displayed to user whether they have won or lost.</li>
+            </ol>
+        </p>
+        <h3>User Story</h3>
+        <p> 
+            <ol>
+                <li>As a player, I can see a web page with a 3 by 3 grid board game with question marks in each square.</li>
+                <li>As a player, when I click on one of the anchor icons, the box reveals a wave icon, treasure icon, or bomb icon.</li>
+                <li>As a player, I can click on the anchor icons and behind one of the icons is a treasure icon and an alert appears with the text “You Won!”</li>
+                <li>As a player, I can see a counter that shows how many guesses I have left (starting at 5).</li>
+                <li>As a player, I can see a “win” or “lose” message when the game is won or lost.</li>
+                <li>As a player, I can click on a “Play Again” button to restart the game.</li>
+            </ol>
+        
+            <h1></h1>
+            <img class="center" src="img/Treasure_Hunt_Giphy.gif" alt="">
+            <p><b>Demo Details :</b> This demonstration shows a player winning, losing, and running out turns. </p>
+            <p><b>My contributions to the project :</b> This project was created with two other fellow students at LEARN Academy in San Diego, CA. I worked collaboratively with my teammates to construct the React framework, Javascript logic, and fine tune the CSS styling for the site and game design.</p>
+            <p><a href="https://github.com/RudyBecker/treasure-hunt-coding-dolls"><b>Github link</b></a></p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:rudy.becker@gmail.com" class="footer__link">Site crafted with care by Rudy Becker</a>
+            <ul class="social-list">
+               <li class="social-list__item">
+                   <a class="social-list__link" href="www.linkedin.com/in/rudybecker2020">
+                       <i class="fab fa-linkedin"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="mailto:rudy.becker@gmail.com">
+                       <i class="far fa-envelope"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="https://drive.google.com/file/d/1lCNYJOJ3jPFK-SEqdIYXbP-AUy9x8vsr/view?usp=sharing">
+                       <i class="far fa-file"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="https://github.com/rudybecker">
+                       <i class="fab fa-github"></i>
+                   </a>
+               </li>
+           </ul>
+       </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

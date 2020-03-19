@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rudy Becker's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- To update fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/RB Logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">What I Can Do</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Deal or No Deal</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Ruby based text game</p>
+            <img src="img/dealornodeal.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Deal or No Deal is a text based ruby game based on the American popular television gameshow "Deal or No Deal.
+            </p>
+        <h3>Features</h3>
+        <p>
+            <ol>
+                <li>Custom user display welcome the user and prompting them to enter a valid name.</li>
+                <li>Fully functioning game with the ability to win $1,000,000 through a series of several rounds of decisions. </li>
+                <li>"Banker" feature offering User the opportunity to end the game based on the custom calculated offer algorhythm.</li>
+                <li>Ability to store the first suitcase chosen until the final round.</li>
+                <li>Custom Display of remaining suitcases at certain rounds.</li>
+                <li>Special Final "Banker" offer before moving to final round choice of first suitcase chosen and final suitcase remaining..</li>
+            </ol>
+        </p>
+        <h3>User Story</h3>
+        <p> 
+            <ol>
+                <li>As a user, I can enter my name and have the text based game recall my name on subsequent prompts.</li>
+                <li>As a user, I can choose between 15 briefacase and store 1 briefacase to be brought to the final round.</li>
+                <li>As a user, I can be offered by the "Banker" a certain amount of money after certain rounds of choosing suitcases and choose to end the game by taking the cash offer.</li>
+                <li>As a user, I have the possibility to win between $1 and $1,000,000 dollars.</li>
+                <li>As a user, the program can validate my responses to make sure I am entering a valid name and number response.</li>
+                <li>As a user, at certain rounds I can view the remaining briefcase values to base my offer from the "Banker" on.</li>
+            </ol>
+        
+            <h1></h1>
+            <img class="center" src="img/deal_or_no_deal.gif" alt="">
+            <p><b>Demo Details :</b> This demonstration shows the welcome, instructions of the game, user input of name, storage of first briefcase, validation of briefcase number, "Banker" offer, and option to continue to subsequent rounds.</p>
+            <p><b>My contributions to the project :</b> This project was created with two other fellow student at LEARN Academy in San Diego, CA. I worked collaboratively with my teammate to design the ruby logic necessary to build a functioning game. We collaboratively developed the user story and custom Banker algorhythm.  In addition I assisted with data framing and storyline creation. </p>
+            <p><b>Future Features:</b> 1) Creation of countdown timer. 2) Addition of text animations.</p>
+            <p><a href="https://github.com/RudyBecker/deal_or_no_deal"><b>Github link</b></a></p>
+        </div>
+        
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:rudy.becker@gmail.com" class="footer__link">Portfolio crafted with care by Rudy Becker</a>
+            <ul class="social-list">
+               <li class="social-list__item">
+                   <a class="social-list__link" href="www.linkedin.com/in/rudybecker2020">
+                       <i class="fab fa-linkedin"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="mailto:rudy.becker@gmail.com">
+                       <i class="far fa-envelope"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="https://drive.google.com/file/d/1lCNYJOJ3jPFK-SEqdIYXbP-AUy9x8vsr/view?usp=sharing">
+                       <i class="far fa-file"></i>
+                   </a>
+               </li>
+               <li class="social-list__item">
+                   <a class="social-list__link" href="https://github.com/rudybecker">
+                       <i class="fab fa-github"></i>
+                   </a>
+               </li>
+           </ul>
+       </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
